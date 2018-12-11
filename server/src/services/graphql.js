@@ -46,6 +46,7 @@ const typeDefs = gql`
     email: String!
     relatedToCEO: Boolean!
     birthDay: String!
+    handedness: Handedness!
   }
 
   type Query {
